@@ -30,7 +30,6 @@ public class TticketDaoImpl implements TicketDao {
     public DataSource getDataSource() {
         return dataSource;
     }
-
     @Override
     public int getCountTicket(RechercheTicket pRechercheTicket) {
         MapSqlParameterSource vParams = new MapSqlParameterSource();
